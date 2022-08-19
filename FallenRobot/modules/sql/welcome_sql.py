@@ -6,8 +6,8 @@ from FallenRobot.modules.helper_funcs.msg_types import Types
 from FallenRobot.modules.sql import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Hlo {first}, kese ho dost?"
+DEFAULT_GOODBYE = "{first}, nikal madharchod"
 
 DEFAULT_WELCOME_MESSAGES = [
     "Hlo {first}, kese ho dost?",
